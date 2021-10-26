@@ -35,7 +35,7 @@ $ pip install -r requirements.txt
 ```
 
 ## Preparation 
-We provide our model-zoo consisting of 14K pretrained models on various Kaggle datasets. We also share the full raw datasets collected from Kaggle as well as their processed versions of datasets for meta-training and meta-test in our learning framework. Except for the raw datasets, all the processed files are required to perform the cross model retireval learning and meta-testing on unseen datasets. Please download following files before training or testing. (Due to the heavy file size, some files will be updated by Oct. 28th. Sorry for the inconvenience). 
+We provide our model-zoo consisting of 14K pretrained models on various Kaggle datasets. We also share the full raw datasets collected from Kaggle as well as their processed versions of datasets for meta-training and meta-test in our learning framework. Except for the raw datasets, all the processed files are required to perform the cross model retrieval learning and meta-testing on unseen datasets. Please download following files before training or testing. (Due to the heavy file size, some files will be updated by Oct. 28th. Sorry for the inconvenience). 
 
 
 |No.|File Name  | Description                         | Extension | Size   | Download |
@@ -67,7 +67,6 @@ $ python3 main.py --gpu $1 \
                   --base-path path/for/storing/outcomes/\
                   --data-path path/to/processed/dataset/is/stored/\
                   --model-zoo path/to/model_zoo.pt\
-                  --model-zoo-raw path/to/pretrained/ofa/models/\
                   --seed 777 
 ```
 or you can try script file after updating the paths.
