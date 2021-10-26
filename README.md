@@ -57,7 +57,7 @@ After download, specify their location on following arguments:
 
 ## Learning the Cross Modal Retrieval Space
 
-Please use following command to learn the cross modal space. Keep in mind that correct `model-zoo` and `data-path` are required. For`base-path`, this path is for storing training outcomes, such resutls, logs, the cross modal embeddings, etc. 
+Please use following command to learn the cross modal space. Keep in mind that correct `model-zoo` and `data-path` are required. For`base-path`, this path is for storing training outcomes, such as resutls, logs, the cross modal embeddings, etc. 
 
 ``` bash
 $ python3 main.py --gpu $1 \
@@ -69,12 +69,12 @@ $ python3 main.py --gpu $1 \
                   --model-zoo path/to/model_zoo.pt\
                   --seed 777 
 ```
-or you can try script file after updating the paths.
+You can also try the below script.
+
 ``` bash
 $ cd scripts
 $ sh train.sh GPU_NO
 ```
-
 
 ## Meta-Test Experiment
 
