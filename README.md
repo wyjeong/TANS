@@ -41,7 +41,7 @@ We provide our model-zoo consisting of 14K pretrained models on various Kaggle d
 |No.|File Name  | Description                         | Extension | Size   | Download |
 |---|-----------|-------------------------------------|-----------|--------|----------|
 |1  |p_mod_zoo  | Processed 14K Model-Zoo             | pt        | 91.9Mb | [Link](https://www.dropbox.com/s/gb0xe86zulsjs99/p_mod_zoo.pt?dl=0) |
-|2  |ofa_nets   | Pretrained OFA Supernets            | pt        | -      | [Pending]()  |
+|2  |ofa_nets   | Pretrained OFA Supernets            | zip       | -      | [Pending]()  |
 |3  |raw_m_train| Raw Meta-Training Datasets          | zip       | -      | [Pending]()  |
 |4  |raw_m_test | Raw Meta-Test Datasets              | zip       | -      | [Pending]()  |
 |5  |p_m_train  | Processed Meta-Training Files       | pt        | 69Mb   | [Link](https://www.dropbox.com/s/1qbsgjqanxgw2ji/p_m_train.pt?dl=0) |
@@ -72,7 +72,7 @@ $ python3 main.py --gpu $1 \
 or you can try script file after updating the paths.
 ``` bash
 $ cd scripts
-$ sh train.sh
+$ sh train.sh GPU_NO
 ```
 
 
