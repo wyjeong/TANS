@@ -51,8 +51,8 @@ We provide our model-zoo consisting of 14K pretrained models on various Kaggle d
 After download, specify their location on following arguments:
 
 - `data-path`: 5 and 6 should be placed. 6 must be unzipped. 
-- `model-zoo`: 1 should be located. Give full path to the file. i.e. path/to/p_mod_zoo.pt
-- `model-zoo-raw`: 2 should be placed and unzipped (required for meta-test experiments)
+- `model-zoo`: path where 1 should be located. Please give full path to the file. i.e. path/to/p_mod_zoo.pt
+- `model-zoo-raw`: path where 2 should be placed and unzipped (required for meta-test experiments)
 
 
 ## Learning the Cross Modal Retrieval Space
@@ -77,7 +77,7 @@ $ sh train.sh GPU_NO
 
 ## Meta-Test Experiment
 
-You can use following command for testing the cross-modal retrieval performance on unseen meta-test datasets. In this experiment `load-path` which is the base-path of the cross modal space previously build and `model-zoo-raw`  for constructing OFA subnet pretrained on meta-training dataset are required. 
+You can use following command for testing the cross-modal retrieval performance on unseen meta-test datasets. In this experiment, `load-path` which is the base-path of the cross modal space that you previously built and `model-zoo-raw` which is path for the OFA supernets pretrained on meta-training datasets are required. 
 
 ``` bash
 $ python3 ../main.py --gpu $1 \
