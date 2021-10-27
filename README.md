@@ -52,7 +52,7 @@ After download, specify their location on following arguments:
 
 - `data-path`: 5 and 6 should be placed. 6 must be unzipped. 
 - `model-zoo`: 1 should be located. Give full path to the file. i.e. path/to/p_mod_zoo.pt
-- `model-zoo-raw`: 2 should be present. Required when meta-testing
+- `model-zoo-raw`: 2 should be placed and unzipped (required for meta-test experiments)
 
 
 ## Learning the Cross Modal Retrieval Space
