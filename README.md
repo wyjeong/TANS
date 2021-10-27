@@ -89,6 +89,7 @@ $ python3 ../main.py --gpu $1 \
                      --data-path path/to/processed/dataset/is/stored/\
                      --model-zoo path/to/model_zoo.pt\
                      --model-zoo-raw path/to/pretrained/ofa/models/\
+                     --load-path path/for/storing/outcomes/\
                      --seed 777
 ```
 You can also simply run a script file after updating the paths.
