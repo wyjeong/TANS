@@ -267,8 +267,6 @@ class Retrieval:
             
             print(' ========================================================================================================================')
             print(f' [query_id:{query_id+1}] fine-tuning on {query_dataset} ... ')
-            # print(f' >>> selected: {[(dataset_list[k], acc_hat_list[k]) for k in top_k_idx]}')
-            # print(' ========================================================================================================================')
             for i, k in enumerate(top_k_idx):
                 st = time.time()
                 self.i = i
@@ -301,7 +299,6 @@ class Retrieval:
                 mse = np.sqrt(np.mean((acc_hat-acc)**2))
                 score_list.append(acc)
                 mse_list.append(mse)
-                print(f' >>> [r_id:{k+1}({i+1})] acc: {acc:.4f} (estim:{acc_hat:.4f}, mse:{mse:.3f})  ({time.time()-st})')
                 self.save_meta_test_results(self.query_dataset)
                 del self.model
                 del self.optim

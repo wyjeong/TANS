@@ -69,8 +69,7 @@ $ python3 main.py --gpu $1 \
                   --model-zoo path/to/model_zoo.pt\
                   --seed 777 
 ```
-You can also try the below script.
-
+You can also simply run a script file after updating the paths.
 ``` bash
 $ cd scripts
 $ sh train.sh GPU_NO
@@ -92,7 +91,7 @@ $ python3 ../main.py --gpu $1 \
                      --model-zoo-raw path/to/pretrained/ofa/models/\
                      --seed 777
 ```
-or you can try script file after updating the paths.
+You can also simply run a script file after updating the paths.
 
 ``` bash
 $ cd scripts
