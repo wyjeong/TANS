@@ -40,12 +40,12 @@ We provide our model-zoo consisting of 14K pretrained models on various Kaggle d
 
 |No.|File Name  | Description                         | Extension | Size   | Download |
 |---|-----------|-------------------------------------|-----------|--------|----------|
-|1  |p_mod_zoo  | Processed 14K Model-Zoo             | pt        | 91.9Mb | [Link](https://www.dropbox.com/s/gb0xe86zulsjs99/p_mod_zoo.pt?dl=0) |
-|2  |ofa_nets   | Pretrained OFA Supernets            | zip       | -      | [Pending]()  |
-|3  |raw_m_train| Raw Meta-Training Datasets          | zip       | -      | [Pending]()  |
-|4  |raw_m_test | Raw Meta-Test Datasets              | zip       | -      | [Pending]()  |
-|5  |p_m_train  | Processed Meta-Training Files       | pt        | 69Mb   | [Link](https://www.dropbox.com/s/1qbsgjqanxgw2ji/p_m_train.pt?dl=0) |
-|6  |p_m_test   | Processed Meta-Test Files           | zip       | 11.6Gb | [Link](https://www.dropbox.com/s/gl02dis7q5lswpb/p_m_test.zip?dl=0) |
+|1  |p_mod_zoo  | Processed 14K Model-Zoo             | pt        | 91.9MB | [Link](https://www.dropbox.com/s/gb0xe86zulsjs99/p_mod_zoo.pt?dl=0)       |
+|2  |ofa_nets   | Pretrained OFA Supernets            | tar.gz    | 9.69GB | [Link](https://www.dropbox.com/s/t5evknimeu0y22z/ofa_nets.tar.gz?dl=0)    |
+|3  |raw_m_train| Raw Meta-Training Datasets          | tar.gz    | 23.23GB| [Link](https://www.dropbox.com/s/mvkyb7qsdmx5cud/raw_m_train.tar.gz?dl=0) |
+|4  |raw_m_test | Raw Meta-Test Datasets              | tar.gz    | 0.89GB | [Link](https://www.dropbox.com/s/jaiq173z0fruzw4/raw_m_test.tar.gz?dl=0)  |
+|5  |p_m_train  | Processed Meta-Training Files       | pt        | 69MB   | [Link](https://www.dropbox.com/s/1qbsgjqanxgw2ji/p_m_train.pt?dl=0)       |
+|6  |p_m_test   | Processed Meta-Test Files           | zip       | 11.6GB | [Link](https://www.dropbox.com/s/gl02dis7q5lswpb/p_m_test.zip?dl=0)       |
 
 
 After download, specify their location on following arguments:
