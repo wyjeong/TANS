@@ -98,5 +98,5 @@ You can also simply run a script file after updating the paths.
 $ cd scripts
 $ sh test.sh GPU_NO
 ```
-
+ 
 
